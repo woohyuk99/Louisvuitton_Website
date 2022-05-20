@@ -8,3 +8,44 @@
     color: white;
     border-color: chocolate;
 }
+
+.usa-flag{
+    width: 16px;
+    aspect-ratio: auto 16 / 12;
+    height: 12px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.first-line{
+    color: white;
+    border-bottom: 1px solid #392d23;
+}
+
+.second-line a{
+    color: white;
+    text-decoration: none;
+}
+
+.third-line{
+    display: none;
+}
+
+@media screen and (max-width:48rem){
+    .first-line{
+        text-align: center;
+    }
+
+    .second-line{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-bottom: 1px solid #392d23;
+    }
+
+    .third-line{
+        display: block;
+    }
+}
